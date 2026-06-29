@@ -25,8 +25,8 @@
           "name": "Latte",
           "description": "Smooth espresso with perfectly steamed milk.",
           "price": 160,
-          "featured": false,
-          "tagIds": [1, 2]
+          "featured": true,
+          "tagIds": [1]
         },
         {
           "id": 2,
@@ -180,7 +180,7 @@
           "description": "Cold espresso infused with hazelnut flavor.",
           "price": 185,
           "featured": true,
-          "tagIds": [1, 2]
+          "tagIds": [1]
         },
         {
           "id": 16,
@@ -202,7 +202,7 @@
           "description": "Creamy Spanish latte served ice cold.",
           "price": 180,
           "featured": true,
-          "tagIds": [1, 2]
+          "tagIds": [2]
         },
         {
           "id": 18,
@@ -235,7 +235,7 @@
           "description": "Creamy mocha blended with crunchy Biscoff.",
           "price": 230,
           "featured": true,
-          "tagIds": [1, 2]
+          "tagIds": [1]
         },
         {
           "id": 21,
@@ -257,7 +257,7 @@
           "description": "Coffee frappe blended with chocolate chips.",
           "price": 230,
           "featured": true,
-          "tagIds": [1, 2]
+          "tagIds": [1]
         },
         {
           "id": 23,
@@ -278,8 +278,8 @@
           "name": "Caramel Frappe",
           "description": "Blended caramel coffee with smooth texture.",
           "price": 220,
-          "featured": true,
-          "tagIds": [1, 2]
+          "featured": false,
+          "tagIds": [2]
         },
         {
           "id": 25,
@@ -367,7 +367,7 @@
           "description": "Creamy Spanish latte topped with cold foam.",
           "price": 205,
           "featured": true,
-          "tagIds": [1, 2]
+          "tagIds": [2]
         },
         {
           "id": 33,
