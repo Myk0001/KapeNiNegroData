@@ -5,6 +5,16 @@
     "slogan": "Fresh brews, cold cups & everything in between.",
     "status": "Now Serving"
   },
+   "tags": [
+    {
+      "id": 1,
+      "label": "Barista Pick"
+    },
+    {
+      "id": 2,
+      "label": "Best Seller"
+    }
+  ],
 
   "menus": [
         {
@@ -15,7 +25,8 @@
           "name": "Latte",
           "description": "Smooth espresso with perfectly steamed milk.",
           "price": 160,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 2,
@@ -25,7 +36,8 @@
           "name": "Cappuccino",
           "description": "Classic espresso topped with velvety milk foam.",
           "price": 160,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 3,
@@ -35,7 +47,8 @@
           "name": "Vanilla Latte",
           "description": "Creamy latte infused with sweet vanilla.",
           "price": 170,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 4,
@@ -45,7 +58,8 @@
           "name": "Caramel Latte",
           "description": "Rich espresso blended with buttery caramel.",
           "price": 175,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 5,
@@ -55,7 +69,8 @@
           "name": "Salted Caramel Latte",
           "description": "Sweet caramel balanced with a hint of sea salt.",
           "price": 180,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 6,
@@ -65,17 +80,19 @@
           "name": "Hazelnut Latte",
           "description": "Nutty hazelnut flavor with smooth steamed milk.",
           "price": 175,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 7,
           "isActive": true,
           "category": "Hot",
-          "imgUrl" : "https://cdn-icons-png.flaticon.com/512/924/924514.png",
+          "imgUrl": "https://cdn-icons-png.flaticon.com/512/924/924514.png",
           "name": "Vanilla Cappuccino",
           "description": "Classic cappuccino with a touch of vanilla.",
           "price": 170,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 8,
@@ -85,7 +102,8 @@
           "name": "Caramel Cappuccino",
           "description": "Foamy cappuccino finished with rich caramel.",
           "price": 175,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 9,
@@ -95,7 +113,8 @@
           "name": "Salted Caramel Cappuccino",
           "description": "Creamy cappuccino with sweet salted caramel.",
           "price": 180,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 10,
@@ -105,7 +124,8 @@
           "name": "Hazelnut Cappuccino",
           "description": "Bold espresso paired with roasted hazelnut.",
           "price": 175,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 11,
@@ -115,7 +135,8 @@
           "name": "Spanish Latte",
           "description": "Espresso sweetened with creamy condensed milk.",
           "price": 170,
-          "tags": ["customer-favorite", "barista-pick"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 12,
@@ -125,7 +146,8 @@
           "name": "Mocha Latte",
           "description": "Chocolate and espresso blended into creamy milk.",
           "price": 180,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 13,
@@ -135,7 +157,8 @@
           "name": "Iced Vanilla Latte",
           "description": "Refreshing iced latte with sweet vanilla.",
           "price": 180,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 14,
@@ -145,47 +168,52 @@
           "name": "Iced Caramel Latte",
           "description": "Chilled espresso with smooth caramel.",
           "price": 185,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 15,
           "isActive": true,
           "category": "Cold",
-          "imgUrl" : "https://cdn-icons-png.flaticon.com/512/924/924514.png",
+          "imgUrl": "https://cdn-icons-png.flaticon.com/512/924/924514.png",
           "name": "Iced Hazelnut Latte",
           "description": "Cold espresso infused with hazelnut flavor.",
           "price": 185,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": true,
+          "tagIds": [1, 2]
         },
         {
           "id": 16,
           "isActive": true,
           "category": "Cold",
-          "imgUrl" : "https://cdn-icons-png.flaticon.com/512/924/924514.png",
+          "imgUrl": "https://cdn-icons-png.flaticon.com/512/924/924514.png",
           "name": "Iced Mocha",
           "description": "Rich chocolate espresso served over ice.",
           "price": 190,
-          "tags": ["customer-favorite"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 17,
           "isActive": true,
           "category": "Cold",
-          "imgUrl" : "https://cdn-icons-png.flaticon.com/512/924/924514.png",
+          "imgUrl": "https://cdn-icons-png.flaticon.com/512/924/924514.png",
           "name": "Iced Spanish Latte",
           "description": "Creamy Spanish latte served ice cold.",
           "price": 180,
-          "tags": ["barista-pick"]
+          "featured": true,
+          "tagIds": [1, 2]
         },
         {
           "id": 18,
           "isActive": true,
           "category": "Cold",
-          "imgUrl" : "https://cdn-icons-png.flaticon.com/512/924/924514.png",
+          "imgUrl": "https://cdn-icons-png.flaticon.com/512/924/924514.png",
           "name": "Iced Salted Caramel Latte",
           "description": "Cold latte with sweet salted caramel.",
           "price": 190,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 19,
@@ -195,7 +223,8 @@
           "name": "Blended Mocha",
           "description": "Frozen mocha blended until creamy.",
           "price": 210,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 20,
@@ -205,7 +234,8 @@
           "name": "Biscoff Mocha Frappe",
           "description": "Creamy mocha blended with crunchy Biscoff.",
           "price": 230,
-          "tags": ["customer-favorite"]
+          "featured": true,
+          "tagIds": [1, 2]
         },
         {
           "id": 21,
@@ -215,7 +245,8 @@
           "name": "Oreo Mocha Frappe",
           "description": "Chocolate mocha blended with Oreo cookies.",
           "price": 225,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 22,
@@ -225,7 +256,8 @@
           "name": "Java Chip Frappe",
           "description": "Coffee frappe blended with chocolate chips.",
           "price": 230,
-          "tags": ["barista-pick"]
+          "featured": true,
+          "tagIds": [1, 2]
         },
         {
           "id": 23,
@@ -235,7 +267,8 @@
           "name": "Vanilla Frappe",
           "description": "Frozen vanilla coffee with a creamy finish.",
           "price": 210,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 24,
@@ -245,7 +278,8 @@
           "name": "Caramel Frappe",
           "description": "Blended caramel coffee with smooth texture.",
           "price": 220,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": true,
+          "tagIds": [1, 2]
         },
         {
           "id": 25,
@@ -255,7 +289,8 @@
           "name": "Hazelnut Frappe",
           "description": "Creamy frozen hazelnut coffee.",
           "price": 220,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 26,
@@ -265,7 +300,8 @@
           "name": "Spanish Frappe",
           "description": "Frozen Spanish latte with condensed milk.",
           "price": 220,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 27,
@@ -275,7 +311,8 @@
           "name": "Salted Caramel Frappe",
           "description": "Sweet salted caramel blended over ice.",
           "price": 225,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 28,
@@ -285,7 +322,8 @@
           "name": "Vanilla Cold Foam Latte",
           "description": "Iced vanilla latte topped with silky cold foam.",
           "price": 200,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 29,
@@ -295,7 +333,8 @@
           "name": "Caramel Cold Foam Latte",
           "description": "Refreshing caramel latte with creamy foam.",
           "price": 205,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 30,
@@ -305,7 +344,8 @@
           "name": "Hazelnut Cold Foam Latte",
           "description": "Nutty iced latte finished with cold foam.",
           "price": 205,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 31,
@@ -315,7 +355,8 @@
           "name": "Mocha Cold Foam",
           "description": "Rich iced mocha crowned with cold foam.",
           "price": 210,
-          "tags": ["Barista Pick", "Best Seller"]
+          "featured": false,
+          "tagIds": [1, 2]
         },
         {
           "id": 32,
@@ -325,17 +366,19 @@
           "name": "Spanish Cold Foam Latte",
           "description": "Creamy Spanish latte topped with cold foam.",
           "price": 205,
-          "tags": ["customer-favorite"]
+          "featured": true,
+          "tagIds": [1, 2]
         },
         {
           "id": 33,
           "isActive": true,
           "category": "Cold Foam",
-          "imgUrl" : "https://cdn-icons-png.flaticon.com/512/924/924514.png",
+          "imgUrl": "https://cdn-icons-png.flaticon.com/512/924/924514.png",
           "name": "Salted Caramel Cold Foam Latte",
           "description": "Iced salted caramel latte with fluffy cold foam.",
           "price": 210,
-          "tags": ["barista-pick"]
+          "featured": false,
+          "tagIds": [1, 2]
         }
       ]
 }
